@@ -19,11 +19,11 @@ body {
     margin-left: 0;
   }
   .col-sm-offset-1 {
-    margin-right: 8.33333333%;
+    margin-right: 8.3333333333%;
     margin-left: 0;
   }
   .col-sm-offset-2 {
-    margin-right: 16.66666667%;
+    margin-right: 16.6666666667%;
     margin-left: 0;
   }
   .col-sm-offset-3 {
@@ -31,11 +31,11 @@ body {
     margin-left: 0;
   }
   .col-sm-offset-4 {
-    margin-right: 33.33333333%;
+    margin-right: 33.3333333333%;
     margin-left: 0;
   }
   .col-sm-offset-5 {
-    margin-right: 41.66666667%;
+    margin-right: 41.6666666667%;
     margin-left: 0;
   }
   .col-sm-offset-6 {
@@ -43,11 +43,11 @@ body {
     margin-left: 0;
   }
   .col-sm-offset-7 {
-    margin-right: 58.33333333%;
+    margin-right: 58.3333333333%;
     margin-left: 0;
   }
   .col-sm-offset-8 {
-    margin-right: 66.66666667%;
+    margin-right: 66.6666666667%;
     margin-left: 0;
   }
   .col-sm-offset-9 {
@@ -55,11 +55,11 @@ body {
     margin-left: 0;
   }
   .col-sm-offset-10 {
-    margin-right: 83.33333333%;
+    margin-right: 83.3333333333%;
     margin-left: 0;
   }
   .col-sm-offset-11 {
-    margin-right: 91.66666667%;
+    margin-right: 91.6666666667%;
     margin-left: 0;
   }
   .col-sm-offset-12 {
@@ -67,19 +67,16 @@ body {
     margin-left: 0;
   }
 }
-
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: right;
   }
 }
-
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: right;
   }
 }
-
 .navbar-brand {
   float: right;
 }
@@ -124,11 +121,9 @@ body {
     margin-right: 10px;
   }
 }
-
 .nav-tabs > li {
   float: right;
 }
-
 .nav-tabs > li > a {
   margin-right: 0;
   margin-left: 5px;
@@ -154,7 +149,6 @@ dd {
   right: 0;
   left: auto;
 }
-
 .product-label-container .product-label {
   float: right;
 }
@@ -163,7 +157,6 @@ dd {
   margin: 4px 4px 0 0;
   font-weight: 700;
 }
-
 .product-label:last-of-type {
   margin-right: 4px;
   margin-left: 0;
@@ -180,7 +173,6 @@ dd {
 .pager .previous > a, .pager .previous > span {
   float: right;
 }
-
 .pager .next > a, .pager .next > span {
   float: left;
 }
@@ -188,11 +180,9 @@ dd {
 .payment_module a {
   padding: 33px 99px 34px 40px;
 }
-
 .payment_module a.bankwire {
   background-position-x: calc(100% - 15px);
 }
-
 .payment_module a.bankwire:after, .payment_module a.cash:after {
   content: "\f053";
   right: auto;
@@ -206,22 +196,22 @@ dd {
   text-align: left;
 }
 
-.radio input[type="radio"],
-.radio-inline input[type="radio"],
-.checkbox input[type="checkbox"],
-.checkbox-inline input[type="checkbox"] {
+.radio input[type=radio],
+.radio-inline input[type=radio],
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox] {
   margin-left: 0;
   margin-right: -20px;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type=checkbox],
+input[type=radio] {
   right: auto;
   opacity: 0;
 }
 
-input[type="radio"] + .label-text:before,
-input[type="checkbox"] + .label-text:before {
+input[type=radio] + .label-text:before,
+input[type=checkbox] + .label-text:before {
   margin-right: 0;
   margin-left: 5px;
 }
@@ -253,12 +243,10 @@ input[type="checkbox"] + .label-text:before {
   margin-left: 0;
   margin-right: -1px;
 }
-
 .btn-group .btn:first-child {
   margin-right: 0;
   margin-left: -1px;
 }
-
 .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group {
   margin-left: 0;
   margin-right: -1px;
@@ -269,7 +257,6 @@ input[type="checkbox"] + .label-text:before {
   margin-right: 0;
   margin-left: 15px;
 }
-
 .block .list-block li {
   padding: 6px 6px 6px 0;
 }
@@ -284,7 +271,6 @@ input[type="checkbox"] + .label-text:before {
   margin-right: 0;
   margin-left: 3px;
 }
-
 .cart_quantity_button .btn:last-of-type {
   margin-left: 0;
 }
@@ -303,7 +289,6 @@ input[type="checkbox"] + .label-text:before {
   left: 10px;
   right: auto;
 }
-
 .bx-next:before {
   content: "\f137";
 }
@@ -312,7 +297,6 @@ input[type="checkbox"] + .label-text:before {
   right: 10px;
   left: auto;
 }
-
 .bx-prev:before {
   content: "\f138";
 }
@@ -347,46 +331,37 @@ input[type="checkbox"] + .label-text:before {
 }
 
 .product_list.grid .show-if-product-grid-hover, .product_list.grid .hide-if-product-grid {
-  -webkit-transform: translate3d(-50px, 0px, 0px);
-          transform: translate3d(-50px, 0px, 0px);
+  transform: translate3d(-50px, 0px, 0px);
 }
-
 .product_list.grid .button-container a i {
   margin-right: 0;
   margin-left: 7px;
 }
-
 .product_list.grid .functional-buttons {
   left: 0;
   right: auto;
 }
-
 .product_list.grid .functional-buttons > div {
   float: right;
 }
-
 .product_list .show-if-product-item-hover {
   right: auto;
   left: 0;
-  -webkit-transform: translate3d(-50px, 0px, 0px);
-          transform: translate3d(-50px, 0px, 0px);
+  transform: translate3d(-50px, 0px, 0px);
 }
 
 #quantity_wanted_p .input-group {
   float: right;
 }
-
 #quantity_wanted_p .input-group #quantity_wanted {
   border-left: none;
-  border-right: 1px solid #dddddd;
+  border-right: 1px solid rgb(221, 221, 221);
 }
-
 #quantity_wanted_p .input-group .input-group-btn {
   float: right;
 }
 
-.input-group-btn:last-child > .btn,
-.input-group-btn:last-child > .btn-group {
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
   margin-left: 0;
   margin-right: -1px;
 }
@@ -415,7 +390,6 @@ input[type="checkbox"] + .label-text:before {
   direction: rtl !important;
   text-align: right;
 }
-
 .ac_results li {
   direction: rtl !important;
   text-align: right;
@@ -425,32 +399,26 @@ input[type="checkbox"] + .label-text:before {
 .sf-menu > li {
   float: right;
 }
-
 .sf-menu > li > ul > li {
   float: right;
   padding-left: 15px;
   padding-right: 0;
 }
-
 .sf-menu > li > ul > li.category-thumbnail {
   padding-left: 0;
 }
-
 .sf-menu > li > ul > li.category-thumbnail > div {
   float: right;
   padding-right: 10px;
   padding-left: 0;
 }
-
 .sf-menu > li > ul > li.category-thumbnail > div:first-child {
   padding-right: 0;
 }
-
 .sf-menu li ul {
   right: 0;
   left: auto;
 }
-
 .sf-menu li li li a:before {
   content: "\f104";
   padding-left: 10px;
@@ -460,7 +428,6 @@ input[type="checkbox"] + .label-text:before {
 #block_top_menu li.category-thumbnail {
   padding-left: 0;
 }
-
 #block_top_menu li.category-thumbnail div {
   float: right;
 }
@@ -478,7 +445,6 @@ input[type="checkbox"] + .label-text:before {
     left: 3px;
   }
 }
-
 /* Block cart */
 #blockcart {
   text-align: left;
@@ -513,7 +479,6 @@ input[type="checkbox"] + .label-text:before {
 #layer_cart {
   right: 0;
 }
-
 #layer_cart .cross {
   right: auto;
   left: 15px;
@@ -523,7 +488,6 @@ input[type="checkbox"] + .label-text:before {
   margin-right: 0;
   margin-left: 5px;
 }
-
 #blockcart-header .ajax_cart_quantity {
   right: auto;
   left: 38px;
@@ -534,23 +498,19 @@ input[type="checkbox"] + .label-text:before {
   margin-right: 0;
   margin-left: 32px;
 }
-
 .blockcategories .list-group-item-wrapper .btn-toggle {
   right: auto;
   left: 0;
   border-right: none;
   border-left: 1px solid #ddd;
 }
-
 .blockcategories .list-group-item {
   padding: 0 0 0 20px;
 }
-
 .blockcategories .list-group-item.ilvl-2 {
   padding-left: 15px;
   padding-right: 25px;
 }
-
 .blockcategories .list-group-item.ilvl-3 {
   padding-left: 15px;
   padding-right: 35px;
@@ -560,7 +520,6 @@ input[type="checkbox"] + .label-text:before {
 #layered_form .layered_filter label a span {
   display: inline-block;
 }
-
 #layered_form #enabled_filters ul li a {
   float: left;
 }
@@ -595,7 +554,6 @@ input[type="checkbox"] + .label-text:before {
 #homepage-slider .bx-wrapper .bx-prev:before {
   content: "\f054";
 }
-
 #homepage-slider .bx-wrapper .bx-next:before {
   content: "\f053";
 }
@@ -608,11 +566,13 @@ input[type="checkbox"] + .label-text:before {
 /* Fancybox */
 .fancybox-button--left::after {
   -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .fancybox-button--right::after {
   -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
 
@@ -642,4 +602,4 @@ input[type="checkbox"] + .label-text:before {
     padding-left: 0;
     padding-right: 15px;
   }
-}
+}/*# sourceMappingURL=rtl.css.map */
