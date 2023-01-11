@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme version="1.1.0" name="Niara" directory="niara">
-  <author name="thirty bees community" email="contact@thirtybees.com"
-          url="https://github.com/thirtybees/niara"/>
+<theme version="1.1.0" name="Niara Gel" directory="niara_gel">
+  <author name="vallka" email="vallka@vallka.com"
+          url="https://github.com/vallka/niara_gel"/>
   <descriptions>
       <description iso="en">Niara is a theme developed and maintained by the thirty bees community and default theme since thirty bees 1.1.0.</description>
   </descriptions>
   <variations>
-    <variation name="Niara" directory="niara" responsive="1"
+    <variation name="Niara Gel" directory="niara_gel" responsive="1"
                default_left_column="1" default_right_column="0"
                product_per_page="12" from="1.1.0"/>
   </variations>
