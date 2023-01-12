@@ -69,6 +69,15 @@
     <script src="{$tpl_uri|escape:'htmlall':'UTF-8'}js/vendor/picturefill-mutation.min.js" data-keepinline async></script>
 
 
+<style>
+#header {
+    background-color: #000;
+    color: #333;
+}
+
+</style>
+
+
 </head>
 <body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if}
         class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{else} show-left-column{/if}{if $hide_right_column} hide-right-column{else} show-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso}">
@@ -91,7 +100,7 @@
         </div>
     {/if}
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"

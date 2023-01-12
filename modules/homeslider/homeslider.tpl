@@ -1,5 +1,25 @@
 {if $page_name =='index'}
   {if isset($homeslider_slides)}
+
+<style>
+.bx-wrapper img {
+  border: solid 1px #999 !important;
+  height: 500px !important;
+  width: 500px !important;
+}
+
+.homeslider-inner {
+  position: absolute;
+  height: 100%;
+  left: 640px;
+  width: 500px;
+  top: 0;
+  border: solid 1px #999 !important;
+  padding: 15px;
+}
+</style>
+
+
     <div id="homepage-slider" class="col-xs-12">
       {if isset($homeslider_slides[0]) && isset($homeslider_slides[0].sizes.1)}{capture name='height'}{$homeslider_slides[0].sizes.1}{/capture}{/if}
       <ul id="homeslider"{if isset($smarty.capture.height) && $smarty.capture.height} style="max-height:{$smarty.capture.height}px;"{/if}>
