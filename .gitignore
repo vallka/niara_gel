@@ -55,3 +55,5 @@ yarn.lock
 
 # NPM lock file
 package-lock.json
+
+z_others/
